@@ -1,0 +1,9 @@
++++ a/debian/control	2022-10-07 11:37:41.312462796 +0000
+@@ -44,7 +44,6 @@ Depends:
+  eject,
+  fdisk | util-linux (<< 2.29.2-3~),
+  gdisk,
+- isc-dhcp-client,
+  locales,
+  lsb-base,
+  lsb-release,
