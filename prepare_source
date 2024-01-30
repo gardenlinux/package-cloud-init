@@ -1,0 +1,2 @@
+apt_src cloud-init
+apply_patches
