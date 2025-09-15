@@ -1,11 +1,10 @@
-diff --color -Naur a/debian/control b/debian/control
---- a/debian/control	2024-05-07 12:29:57.363576024 +0200
-+++ b/debian/control	2024-05-07 12:33:40.091743498 +0200
-@@ -45,7 +45,6 @@
+--- a/debian/control	2025-09-15 15:54:42.970697574 +0200
++++ b/debian/control	2025-09-15 15:55:16.974974462 +0200
+@@ -48,7 +48,6 @@
   eject,
   fdisk | util-linux (<< 2.29.2-3~),
   gdisk,
-- udhcpc | isc-dhcp-client,
+- dhcpcd-base | udhcpc | isc-dhcp-client,
   locales,
   lsb-release,
-  procps,
+  netcat-openbsd,
