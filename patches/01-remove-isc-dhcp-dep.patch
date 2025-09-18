@@ -1,10 +1,11 @@
---- a/debian/control	2025-09-15 15:54:42.970697574 +0200
-+++ b/debian/control	2025-09-15 15:55:16.974974462 +0200
-@@ -48,7 +48,6 @@
+--- a	2025-09-18 10:24:55.934752459 +0200
++++ b	2025-09-18 10:25:13.735466716 +0200
+@@ -48,7 +48,7 @@
   eject,
   fdisk | util-linux (<< 2.29.2-3~),
   gdisk,
 - dhcpcd-base | udhcpc | isc-dhcp-client,
++ dhcpcd-base,
   locales,
   lsb-release,
   netcat-openbsd,
