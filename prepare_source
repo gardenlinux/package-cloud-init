@@ -1,6 +1,6 @@
 pkg=cloud-init
-version_orig=25.1.4
+version_orig=24.2
 version="$version_orig-1"
 git_src -b "debian/$version" https://salsa.debian.org/cloud-team/cloud-init
-apply_patches
+import_upstream_patches
 version_suffix=gl1~bp1592
