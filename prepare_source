@@ -1,5 +1,2 @@
-pkg=cloud-init
-version_orig=25.2
-version="$version_orig-1"
-git_src -b "debian/$version" https://salsa.debian.org/cloud-team/cloud-init
+apt_src cloud-init
 apply_patches
